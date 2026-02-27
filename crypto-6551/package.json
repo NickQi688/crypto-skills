@@ -1,0 +1,17 @@
+{
+  "name": "crypto-6551",
+  "version": "1.0.0",
+  "description": "6551 API 调用的通用封装模块 - 支持 OpenNews 和 OpenTwitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "news": "node news.js",
+    "twitter": "node twitter.js"
+  },
+  "keywords": ["crypto", "6551", "api", "news", "twitter"],
+  "author": "小鲸",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
